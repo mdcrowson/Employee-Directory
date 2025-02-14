@@ -57,7 +57,17 @@ p {
     padding: 25px 15px;
 }
 
-.image-cropper {
+img {
+    border-radius: 50%;
+
+}
+
+.card-img {
+    margin-right: 20px;
+    max-width: 100px;
+}
+
+/* .image-cropper {
     width: 100px;
     height: 100px;
     position: relative;
@@ -71,7 +81,58 @@ p {
     margin: 0 auto;
     width: 100%;
     vertical-align: middle;
+  } */
+
+
+/* Modal */
+.modal {
+    background-color: #fff;
+    border: 1px solid #c3c3c3;
+    border-radius: 10px;
+    padding: 40px;
+    max-width: fit-content;
+    position: relative;
+}
+
+.modal-content {
+    text-align: center;
+}
+
+.modal-img {
+    max-width: 150px;
+    text-align: center;
+}
+
+.modal p {
+    line-height: 1.1rem;
+}
+
+hr {
+    margin: 20px 0;
+}
+
+.modal-close {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    margin-left: auto;
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
   }
 
+/* Overlay */
 
+.overlay {
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: fixed;
+    inset: 0;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .overlay.open {
+    display: flex;
+  }
 
