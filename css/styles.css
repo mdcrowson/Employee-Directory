@@ -132,7 +132,7 @@ hr {
     align-items: center;
   }
   
-  .overlay.open {
-    display: flex;
+  .overlay.hidden {
+    display: none;
   }
 
