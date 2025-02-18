@@ -7,7 +7,6 @@ body {
 
     background-color: #f0f0f0;
     font-family: "Inter", serif;
-    font-optical-sizing: auto;
     font-style: normal;
     width: 90%;
     max-width: 1200px;
@@ -66,22 +65,6 @@ img {
     margin-right: 20px;
     max-width: 100px;
 }
-
-/* .image-cropper {
-    width: 100px;
-    height: 100px;
-    position: relative;
-    overflow: hidden;
-    border-radius: 50%;
-    margin-right: 20px;
-}
-
-.image-cropper img {
-    display: inline;
-    margin: 0 auto;
-    width: 100%;
-    vertical-align: middle;
-  } */
 
 
 /* Modal */
